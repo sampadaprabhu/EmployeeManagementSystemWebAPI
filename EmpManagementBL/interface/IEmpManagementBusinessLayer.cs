@@ -7,7 +7,7 @@ namespace EmpManagementBL.implementation
 {
     public interface IEmpManagementBusinessLayer
     {
-        bool AddEmployee(EmpManagementModelLayer empManagementModelLayer);
+        bool AddEmployee(EmployeeDetails employeeDetails);
         bool UpdateEmployee(EmpManagementModelLayer empManagementModelLayer);
         bool DeleteEmployee(int EmpID);
         List<EmpManagementModelLayer> GetAllEmployees();

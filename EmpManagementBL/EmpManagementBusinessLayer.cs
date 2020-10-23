@@ -14,11 +14,11 @@ namespace EmpManagementBL
         {
             this.empManagementRepositoryLayer = empManagementRepositoryLayer;
         }
-        public bool AddEmployee(EmpManagementModelLayer empManagementModelLayer)
+        public bool AddEmployee(EmployeeDetails employeeDetails)
         {
             try
             {
-                return this.empManagementRepositoryLayer.AddEmployee(empManagementModelLayer);
+                return this.empManagementRepositoryLayer.AddEmployee(employeeDetails);
             }
             catch(Exception ex)
             {

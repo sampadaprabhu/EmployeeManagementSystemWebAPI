@@ -21,7 +21,7 @@ namespace EmpManagementRL
             this.connection = new SqlConnection(this.connectionString);
         }
 
-        public bool AddEmployee(EmpManagementModelLayer empManagementModelLayer)
+        public bool AddEmployee(EmployeeDetails employeeDetails)
         {
             try
             {
@@ -29,12 +29,12 @@ namespace EmpManagementRL
                 {
                     SqlCommand command = new SqlCommand("SPAddEmployeeData", this.connection);
                     command.CommandType = CommandType.StoredProcedure;
-                    command.Parameters.AddWithValue("@EmpID", empManagementModelLayer.EmpID);
-                    command.Parameters.AddWithValue("@FirstName", empManagementModelLayer.FirstName);
-                    command.Parameters.AddWithValue("@LastName", empManagementModelLayer.LastName);
-                    command.Parameters.AddWithValue("@EmailID", empManagementModelLayer.EmailID);
-                    command.Parameters.AddWithValue("@PhoneNumber", empManagementModelLayer.PhoneNumber);
-                    command.Parameters.AddWithValue("@DepartmentID", empManagementModelLayer.DepartmentID);
+                    //command.Parameters.AddWithValue("@EmpID", empManagementModelLayer.EmpID);
+                    command.Parameters.AddWithValue("@FirstName", employeeDetails.FirstName);
+                    command.Parameters.AddWithValue("@LastName", employeeDetails.LastName);
+                    command.Parameters.AddWithValue("@EmailID", employeeDetails.EmailID);
+                    command.Parameters.AddWithValue("@PhoneNumber", employeeDetails.PhoneNumber);
+                    command.Parameters.AddWithValue("@DepartmentID", employeeDetails.DepartmentID);
                     this.connection.Open();
                     var result = command.ExecuteNonQuery();
                     if (result != 0)
