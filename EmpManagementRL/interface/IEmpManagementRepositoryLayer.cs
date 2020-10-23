@@ -9,5 +9,6 @@ namespace EmpManagementRL.implementation
     {
         bool AddEmployee(EmpManagementModelLayer empManagementModelLayer);
         bool UpdateEmployee(EmpManagementModelLayer empManagementModelLayer);
+        bool DeleteEmployee(int EmpID);
     }
 }
