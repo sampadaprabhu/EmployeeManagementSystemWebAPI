@@ -36,7 +36,27 @@ namespace EmpManagementWebAPI.Controllers
             }
             catch(Exception ex)
             {
-                return this.BadRequest(new ResponseEntity(HttpStatusCode.BadRequest,"",result));
+                return this.BadRequest(new ResponseEntity(HttpStatusCode.BadRequest,"",ex.Message));
+            }
+        }
+
+        [Route("updatemployee")]
+        [HttpPost]
+        public ActionResult UpdateEmployee([FromBody] EmpManagementModelLayer empManagementModelLayer)
+        {
+            var result = this.empManagementBusinessLayer.UpdateEmployee(empManagementModelLayer);
+            try
+            {
+                if (result != null)
+                {
+                    return this.Ok(new ResponseEntity(HttpStatusCode.OK, "Employee Updated Successfully", result));
+                }
+                return this.NotFound(new ResponseEntity(HttpStatusCode.NotFound, "Employee Not Updated", result));
+            }
+
+            catch(Exception ex)
+            {
+                return this.BadRequest(new ResponseEntity(HttpStatusCode.BadRequest, "", ex.Message));
             }
         }
     }
