@@ -78,5 +78,24 @@ namespace EmpManagementWebAPI.Controllers
                 return this.BadRequest(new ResponseEntity(HttpStatusCode.BadRequest, "", ex.Message));
             }
         }
+
+        [Route("getalllist")]
+        [HttpGet]
+        public ActionResult GetAllEmployees()
+        {
+            var result = this.empManagementBusinessLayer.GetAllEmployees();
+            try
+            {
+                if (result != null)
+                {
+                    return this.Ok(new ResponseEntity(HttpStatusCode.OK, "All Employee Data Found", result));
+                }
+                return this.NotFound(new ResponseEntity(HttpStatusCode.NotFound, "Employee Data Not Found", result));
+            }
+            catch (Exception ex)
+            {
+                return this.BadRequest(new ResponseEntity(HttpStatusCode.BadRequest, "", ex.Message));
+            }
+        }
     }
 }
