@@ -4,6 +4,65 @@
     "G:\\ASP.NET\\EmpManagementWebAPI\\EmpManagementRL\\EmpManagementRL.csproj": {}
   },
   "projects": {
+    "G:\\ASP.NET\\EmpManagementWebAPI\\EmpManagementML\\EmpManagementML.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\ASP.NET\\EmpManagementWebAPI\\EmpManagementML\\EmpManagementML.csproj",
+        "projectName": "EmpManagementML",
+        "projectPath": "G:\\ASP.NET\\EmpManagementWebAPI\\EmpManagementML\\EmpManagementML.csproj",
+        "packagesPath": "C:\\Users\\Amol\\.nuget\\packages\\",
+        "outputPath": "G:\\ASP.NET\\EmpManagementWebAPI\\EmpManagementML\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Amol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "G:\\ASP.NET\\EmpManagementWebAPI\\EmpManagementRL\\EmpManagementRL.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -18,15 +77,19 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "netcoreapp2.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "projectReferences": {}
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "G:\\ASP.NET\\EmpManagementWebAPI\\EmpManagementML\\EmpManagementML.csproj": {
+                "projectPath": "G:\\ASP.NET\\EmpManagementWebAPI\\EmpManagementML\\EmpManagementML.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -36,7 +99,23 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -47,11 +126,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }

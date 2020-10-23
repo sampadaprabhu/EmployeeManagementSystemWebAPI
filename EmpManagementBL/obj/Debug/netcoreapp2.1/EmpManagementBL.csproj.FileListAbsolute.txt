@@ -1,0 +1,8 @@
+G:\ASP.NET\EmpManagementWebAPI\EmpManagementBL\bin\Debug\netcoreapp2.1\EmpManagementBL.deps.json
+G:\ASP.NET\EmpManagementWebAPI\EmpManagementBL\bin\Debug\netcoreapp2.1\EmpManagementBL.dll
+G:\ASP.NET\EmpManagementWebAPI\EmpManagementBL\bin\Debug\netcoreapp2.1\EmpManagementBL.pdb
+G:\ASP.NET\EmpManagementWebAPI\EmpManagementBL\obj\Debug\netcoreapp2.1\EmpManagementBL.AssemblyInfoInputs.cache
+G:\ASP.NET\EmpManagementWebAPI\EmpManagementBL\obj\Debug\netcoreapp2.1\EmpManagementBL.AssemblyInfo.cs
+G:\ASP.NET\EmpManagementWebAPI\EmpManagementBL\obj\Debug\netcoreapp2.1\EmpManagementBL.csproj.CoreCompileInputs.cache
+G:\ASP.NET\EmpManagementWebAPI\EmpManagementBL\obj\Debug\netcoreapp2.1\EmpManagementBL.dll
+G:\ASP.NET\EmpManagementWebAPI\EmpManagementBL\obj\Debug\netcoreapp2.1\EmpManagementBL.pdb
