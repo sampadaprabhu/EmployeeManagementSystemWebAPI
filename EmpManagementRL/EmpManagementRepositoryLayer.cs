@@ -36,7 +36,7 @@ namespace EmpManagementRL
                     command.Parameters.AddWithValue("@DepartmentID", empManagementModelLayer.DepartmentID);
                     this.connection.Open();
                     var result = command.ExecuteNonQuery();
-                    if (result != null)
+                    if (result != 0)
                     {
                         return true;
                     }
@@ -46,6 +46,39 @@ namespace EmpManagementRL
             catch(Exception ex)
             {
                 throw new Exception(ex.Message);
+            }
+            finally
+            {
+                this.connection.Close();
+            }
+        }
+
+        public bool UpdateEmployee(EmpManagementModelLayer empManagementModelLayer)
+        {
+            try
+            {
+                using (this.connection)
+                {
+                    SqlCommand command = new SqlCommand("SPUpdateEmployeeData", this.connection);
+                    command.CommandType = CommandType.StoredProcedure;
+                    command.Parameters.AddWithValue("@EmpID", empManagementModelLayer.EmpID);
+                    command.Parameters.AddWithValue("@FirstName", empManagementModelLayer.FirstName);
+                    command.Parameters.AddWithValue("@LastName", empManagementModelLayer.LastName);
+                    command.Parameters.AddWithValue("@EmailID", empManagementModelLayer.EmailID);
+                    command.Parameters.AddWithValue("@PhoneNumber", empManagementModelLayer.PhoneNumber);
+                    command.Parameters.AddWithValue("@DepartmentID", empManagementModelLayer.DepartmentID);
+                    this.connection.Open();
+                    var result = command.ExecuteNonQuery();
+                    if (result != 0)
+                    {
+                        return true;
+                    }
+                    return false;
+                }
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
             }
             finally
             {

@@ -8,5 +8,6 @@ namespace EmpManagementRL.implementation
     public interface IEmpManagementRepositoryLayer
     {
         bool AddEmployee(EmpManagementModelLayer empManagementModelLayer);
+        bool UpdateEmployee(EmpManagementModelLayer empManagementModelLayer);
     }
 }
