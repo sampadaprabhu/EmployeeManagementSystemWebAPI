@@ -2,7 +2,7 @@
 
 namespace EmpManagementRL
 {
-    public class Class1
+    public class EmpManagementRepositoryLayer
     {
     }
 }
