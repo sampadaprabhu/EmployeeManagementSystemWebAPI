@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using EmpManagementBL;
+using EmpManagementBL.implementation;
 using EmpManagementRL;
 using EmpManagementRL.implementation;
 using Microsoft.AspNetCore.Builder;
@@ -12,6 +14,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Microsoft.OpenApi.Models;
 
 namespace EmpManagementWebAPI
 {
@@ -30,6 +33,11 @@ namespace EmpManagementWebAPI
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddSingleton<IConfiguration>(this.Configuration);
             services.AddTransient<IEmpManagementRepositoryLayer, EmpManagementRepositoryLayer>();
+            services.AddTransient<IEmpManagementBusinessLayer, EmpManagementBusinessLayer>();
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Employee Management API", Version = "v1" });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -46,6 +54,15 @@ namespace EmpManagementWebAPI
 
             app.UseHttpsRedirection();
             app.UseMvc();
+            app.UseSwagger(c => { c.SerializeAsV2 = true; });
+
+            // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.),
+            // specifying the Swagger JSON endpoint.
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("../swagger/v1/swagger.json", "My API V1");
+                c.RoutePrefix = string.Empty;
+            });
         }
     }
 }

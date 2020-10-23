@@ -11,7 +11,6 @@ G:\ASP.NET\EmpManagementWebAPI\EmpManagementWebAPI\bin\Debug\netcoreapp2.1\EmpMa
 G:\ASP.NET\EmpManagementWebAPI\EmpManagementWebAPI\obj\Debug\netcoreapp2.1\EmpManagementWebAPI.csprojAssemblyReference.cache
 G:\ASP.NET\EmpManagementWebAPI\EmpManagementWebAPI\obj\Debug\netcoreapp2.1\EmpManagementWebAPI.AssemblyInfoInputs.cache
 G:\ASP.NET\EmpManagementWebAPI\EmpManagementWebAPI\obj\Debug\netcoreapp2.1\EmpManagementWebAPI.AssemblyInfo.cs
-G:\ASP.NET\EmpManagementWebAPI\EmpManagementWebAPI\obj\Debug\netcoreapp2.1\EmpManagementWebAPI.csproj.CoreCompileInputs.cache
 G:\ASP.NET\EmpManagementWebAPI\EmpManagementWebAPI\obj\Debug\netcoreapp2.1\EmpManagementWebAPI.RazorAssemblyInfo.cache
 G:\ASP.NET\EmpManagementWebAPI\EmpManagementWebAPI\obj\Debug\netcoreapp2.1\EmpManagementWebAPI.RazorAssemblyInfo.cs
 G:\ASP.NET\EmpManagementWebAPI\EmpManagementWebAPI\obj\Debug\netcoreapp2.1\EmpManagementWebAPI.RazorTargetAssemblyInfo.cache
@@ -19,3 +18,8 @@ G:\ASP.NET\EmpManagementWebAPI\EmpManagementWebAPI\obj\Debug\netcoreapp2.1\EmpMa
 G:\ASP.NET\EmpManagementWebAPI\EmpManagementWebAPI\obj\Debug\netcoreapp2.1\EmpManagementWebAPI.dll
 G:\ASP.NET\EmpManagementWebAPI\EmpManagementWebAPI\obj\Debug\netcoreapp2.1\EmpManagementWebAPI.pdb
 G:\ASP.NET\EmpManagementWebAPI\EmpManagementWebAPI\obj\Debug\netcoreapp2.1\EmpManagementWebAPI.genruntimeconfig.cache
+G:\ASP.NET\EmpManagementWebAPI\EmpManagementWebAPI\bin\Debug\netcoreapp2.1\EmpManagementML.dll
+G:\ASP.NET\EmpManagementWebAPI\EmpManagementWebAPI\bin\Debug\netcoreapp2.1\EmpManagementML.pdb
+G:\ASP.NET\EmpManagementWebAPI\EmpManagementWebAPI\bin\Debug\netcoreapp2.1\EmpManagementBL.dll
+G:\ASP.NET\EmpManagementWebAPI\EmpManagementWebAPI\bin\Debug\netcoreapp2.1\EmpManagementBL.pdb
+G:\ASP.NET\EmpManagementWebAPI\EmpManagementWebAPI\obj\Debug\netcoreapp2.1\EmpManagementWebAPI.csproj.CoreCompileInputs.cache

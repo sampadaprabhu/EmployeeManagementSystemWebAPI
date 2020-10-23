@@ -4,6 +4,6 @@ G:\ASP.NET\EmpManagementWebAPI\EmpManagementML\bin\Debug\netcoreapp2.1\EmpManage
 G:\ASP.NET\EmpManagementWebAPI\EmpManagementML\obj\Debug\netcoreapp2.1\EmpManagementML.csprojAssemblyReference.cache
 G:\ASP.NET\EmpManagementWebAPI\EmpManagementML\obj\Debug\netcoreapp2.1\EmpManagementML.AssemblyInfoInputs.cache
 G:\ASP.NET\EmpManagementWebAPI\EmpManagementML\obj\Debug\netcoreapp2.1\EmpManagementML.AssemblyInfo.cs
-G:\ASP.NET\EmpManagementWebAPI\EmpManagementML\obj\Debug\netcoreapp2.1\EmpManagementML.csproj.CoreCompileInputs.cache
 G:\ASP.NET\EmpManagementWebAPI\EmpManagementML\obj\Debug\netcoreapp2.1\EmpManagementML.dll
 G:\ASP.NET\EmpManagementWebAPI\EmpManagementML\obj\Debug\netcoreapp2.1\EmpManagementML.pdb
+G:\ASP.NET\EmpManagementWebAPI\EmpManagementML\obj\Debug\netcoreapp2.1\EmpManagementML.csproj.CoreCompileInputs.cache

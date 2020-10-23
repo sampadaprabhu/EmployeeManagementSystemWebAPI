@@ -4,6 +4,76 @@
     "G:\\ASP.NET\\EmpManagementWebAPI\\EmpManagementWebAPI\\EmpManagementWebAPI.csproj": {}
   },
   "projects": {
+    "G:\\ASP.NET\\EmpManagementWebAPI\\EmpManagementBL\\EmpManagementBL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\ASP.NET\\EmpManagementWebAPI\\EmpManagementBL\\EmpManagementBL.csproj",
+        "projectName": "EmpManagementBL",
+        "projectPath": "G:\\ASP.NET\\EmpManagementWebAPI\\EmpManagementBL\\EmpManagementBL.csproj",
+        "packagesPath": "C:\\Users\\Amol\\.nuget\\packages\\",
+        "outputPath": "G:\\ASP.NET\\EmpManagementWebAPI\\EmpManagementBL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Amol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "G:\\ASP.NET\\EmpManagementWebAPI\\EmpManagementML\\EmpManagementML.csproj": {
+                "projectPath": "G:\\ASP.NET\\EmpManagementWebAPI\\EmpManagementML\\EmpManagementML.csproj"
+              },
+              "G:\\ASP.NET\\EmpManagementWebAPI\\EmpManagementRL\\EmpManagementRL.csproj": {
+                "projectPath": "G:\\ASP.NET\\EmpManagementWebAPI\\EmpManagementRL\\EmpManagementRL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "G:\\ASP.NET\\EmpManagementWebAPI\\EmpManagementML\\EmpManagementML.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -43,6 +113,10 @@
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",
@@ -111,6 +185,10 @@
               "version": "[2.1.0, )",
               "autoReferenced": true
             },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.2, )"
@@ -153,6 +231,9 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
+              "G:\\ASP.NET\\EmpManagementWebAPI\\EmpManagementBL\\EmpManagementBL.csproj": {
+                "projectPath": "G:\\ASP.NET\\EmpManagementWebAPI\\EmpManagementBL\\EmpManagementBL.csproj"
+              },
               "G:\\ASP.NET\\EmpManagementWebAPI\\EmpManagementRL\\EmpManagementRL.csproj": {
                 "projectPath": "G:\\ASP.NET\\EmpManagementWebAPI\\EmpManagementRL\\EmpManagementRL.csproj"
               }
@@ -184,6 +265,10 @@
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",

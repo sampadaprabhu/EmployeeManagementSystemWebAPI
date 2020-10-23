@@ -3,6 +3,12 @@ G:\ASP.NET\EmpManagementWebAPI\EmpManagementBL\bin\Debug\netcoreapp2.1\EmpManage
 G:\ASP.NET\EmpManagementWebAPI\EmpManagementBL\bin\Debug\netcoreapp2.1\EmpManagementBL.pdb
 G:\ASP.NET\EmpManagementWebAPI\EmpManagementBL\obj\Debug\netcoreapp2.1\EmpManagementBL.AssemblyInfoInputs.cache
 G:\ASP.NET\EmpManagementWebAPI\EmpManagementBL\obj\Debug\netcoreapp2.1\EmpManagementBL.AssemblyInfo.cs
-G:\ASP.NET\EmpManagementWebAPI\EmpManagementBL\obj\Debug\netcoreapp2.1\EmpManagementBL.csproj.CoreCompileInputs.cache
 G:\ASP.NET\EmpManagementWebAPI\EmpManagementBL\obj\Debug\netcoreapp2.1\EmpManagementBL.dll
 G:\ASP.NET\EmpManagementWebAPI\EmpManagementBL\obj\Debug\netcoreapp2.1\EmpManagementBL.pdb
+G:\ASP.NET\EmpManagementWebAPI\EmpManagementBL\bin\Debug\netcoreapp2.1\EmpManagementML.dll
+G:\ASP.NET\EmpManagementWebAPI\EmpManagementBL\bin\Debug\netcoreapp2.1\EmpManagementRL.dll
+G:\ASP.NET\EmpManagementWebAPI\EmpManagementBL\bin\Debug\netcoreapp2.1\EmpManagementML.pdb
+G:\ASP.NET\EmpManagementWebAPI\EmpManagementBL\bin\Debug\netcoreapp2.1\EmpManagementRL.pdb
+G:\ASP.NET\EmpManagementWebAPI\EmpManagementBL\obj\Debug\netcoreapp2.1\EmpManagementBL.csprojAssemblyReference.cache
+G:\ASP.NET\EmpManagementWebAPI\EmpManagementBL\obj\Debug\netcoreapp2.1\EmpManagementBL.csproj.CopyComplete
+G:\ASP.NET\EmpManagementWebAPI\EmpManagementBL\obj\Debug\netcoreapp2.1\EmpManagementBL.csproj.CoreCompileInputs.cache
