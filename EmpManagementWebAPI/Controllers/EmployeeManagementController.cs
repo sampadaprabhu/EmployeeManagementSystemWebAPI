@@ -59,5 +59,24 @@ namespace EmpManagementWebAPI.Controllers
                 return this.BadRequest(new ResponseEntity(HttpStatusCode.BadRequest, "", ex.Message));
             }
         }
+
+        [Route("deleteemployee")]
+        [HttpDelete]
+        public ActionResult DeleteEmployee(int EmpID)
+        {
+            var result = this.empManagementBusinessLayer.DeleteEmployee(EmpID);
+            try
+            {
+                if (result != null)
+                {
+                    return this.Ok(new ResponseEntity(HttpStatusCode.OK, "Employee Deleted Successfully", result));
+                }
+                return this.NotFound(new ResponseEntity(HttpStatusCode.NotFound, "Employee Not Deleted", result));
+            }
+            catch (Exception ex)
+            {
+                return this.BadRequest(new ResponseEntity(HttpStatusCode.BadRequest, "", ex.Message));
+            }
+        }
     }
 }
